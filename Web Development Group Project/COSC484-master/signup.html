@@ -1,0 +1,34 @@
+<!DOCTYPE html lang="en">
+<html>
+    <head>
+        <title>Signup-TUDP</title>
+    </head>
+    
+    <body>
+        <h1>Sign up</h1>
+        <h2>Student Information</h2>
+        <form id = "signup" action = "signin.html">
+            <input id = "user_fname" type="text" placeholder="First Name" required>
+            <input id = "user_lname" type="text" placeholder="Last Name" required><br>
+            <input id = "user_TUID" type="text" placeholder="TU ID #" required>
+            <input id = "user_phone" type="tel" placeholder="Phone Number" required><br>
+            <input id = user_email type="email" placeholder="Towson Email" required><br>
+
+            <h2>Academic Information</h2>
+            <input id = "major" type="text" placeholder="Major" required>
+            <input id = "minor" type = "text" placeholder="Minor (N/A if none)" required>
+
+            <select id="grad_box">
+            <option id = "ugrad" selected="true">Undergraduate</option>
+            <option id = "grad">Graduate</option>
+            </select>
+
+            <h2>Create Log-in</h2>
+            <input id = "username" type="text" placeholder = "Username" required><br>
+            <input id = "pass" type="password" placeholder = "Password" required><br>
+            <input id = "vpass" type="password" placeholder = "Verify Password" required><br>
+
+            <input id = "signup_button" type="submit" value="Sign up"> 
+        </form>
+    </body>
+</html>
